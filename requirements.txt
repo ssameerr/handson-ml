@@ -22,13 +22,13 @@
 jupyter==1.0.0
 matplotlib==2.0.2
 numexpr==2.6.3
-numpy==1.13.1
+numpy==1.22.2
 pandas==0.20.3
 Pillow==4.2.1
 protobuf==3.4.0
 psutil==5.3.1
-scikit-learn==0.19.0
-scipy==0.19.1
+scikit-learn==1.5.0
+scipy==1.10.0rc1
 sympy==1.1.1
 tensorflow==1.3.0
 
@@ -42,3 +42,13 @@ tensorflow==1.3.0
 # Optional: these are useful Jupyter extensions, in particular to display
 # the table of contents.
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-core>=4.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+nbconvert>=6.3.0b0 # not directly required, pinned by Snyk to avoid a vulnerability
+notebook>=6.4.12 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
